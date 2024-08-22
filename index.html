@@ -26,9 +26,10 @@
                 body:  'rgb(248,246, 243)',
           },
           
-          fontFamily {
+          fontFamily: {
             Manrope: 'Manrope',
           }
+          
         }
       }
     }
@@ -38,19 +39,17 @@
 <body class="font-Manrope bg">
 
     <!-- header starts here  -->
-   <header>
+   <header class="w-full mx-auto bg-orange-50">
     <nav class="w-11/12 mx-auto">
-        <div class="navbar bg-base-100">
+        <div class="navbar">
             <div class="navbar-start">
-              
-
               <div class="flex space-x-2">
             <i class="fa-sharp fa-solid fa-arrow-right bg-[#ABEF5F] rounded-full items-center w-7 h-7 p-1.5 -rotate-45"></i>
              <h2 class="text-3xl font-bold"> Rintero</h2>
               <!-- <a class="btn btn-ghost text-xl">Rintero</a> -->
               </div>
             </div>
-            <div class="navbar-center hidden lg:flex">
+            <div class="navbar-center hidden lg:flex ">
               <ul class="menu menu-horizontal px-1 text-medium font-medium">
                 <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a>Home</a></li>
                 <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a>Service</a></li>
@@ -60,7 +59,7 @@
                 
               </ul>
             </div>
-            <div class="navbar-end flet space-x-5">
+            <div class="navbar-end space-x-5">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="p-1 bg-slate-200 rounded-full size-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
                   </svg>
@@ -69,7 +68,7 @@
                   </svg>
                   
 
-              <a class="btn btn-success border-none rounded-3xl font-bold text-lg bg-[#ABEF5F]">Book Consult <i class="fa-sharp fa-solid fa-arrow-right bg-black text-white rounded-full items-center w-8 h-8 p-1.5 -rotate-45 sm:block"></i></a>
+              <a class="btn btn-success border-none rounded-3xl font-bold text-lg bg-[#ABEF5F]">Book Consult <i class="fa-sharp fa-solid fa-arrow-right bg-black text-white rounded-full items-center w-8 h-8 p-1.5 -rotate-45"></i></a>
               <!-- <i class="fa-sharp fa-solid fa-arrow-right"></i> -->
 
               <div class="dropdown">
@@ -77,7 +76,7 @@
                     <i class="fa-solid fa-bars"></i>
                 </div>
                 <ul
-                  tabindex="0"
+                tabindex="0"
                   class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-medium font-medium">
                   <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a>Home</a></li>
                 <li class="hover:text-primary transition-colors duration-300 ease-in-out"><a>Service</a></li>
@@ -89,6 +88,26 @@
             </div>
           </div>
     </nav>
+
+    <!-- BANNERS STSRTS HERE  -->
+    
+        <div class="hero">
+          <div class="hero-content text-center">
+            <div class="max-w-lg">
+              <img src="images/banner.png" alt="">
+              <h1 class="text-3xl font-bold">A barn house of this design has a <br> striking appearance</h1>
+              <p class="py-6">
+                The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.
+              </p>
+              <a class="btn btn-success border-none rounded-3xl font-bold text-lg bg-[#ABEF5F]">View details <i class="fa-sharp fa-solid fa-arrow-right bg-[#a8e068] text-black rounded-full items-center w-8 h-8 p-1.5 -rotate-45"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div>
+
+        </div>
+    
    </header>
    <main>
     
@@ -99,3 +118,5 @@
    </footer>
 </body>
 </html>
+
+
