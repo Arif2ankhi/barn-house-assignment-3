@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-3 Barn House </title>
+    <link rel="stylesheet" href="style.css">
     <!-- font awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- google font  -->
@@ -59,7 +60,7 @@
                 
               </ul>
             </div>
-            <div class="navbar-end space-x-5">
+            <div class="navbar-end  space-x-5">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="p-1 bg-slate-200 rounded-full size-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
                   </svg>
@@ -95,21 +96,67 @@
           <div class="hero-content text-center">
             <div class="max-w-lg">
               <img src="images/banner.png" alt="">
-              <h1 class="text-3xl font-bold">A barn house of this design has a <br> striking appearance</h1>
-              <p class="py-6">
+              <div class="py-6 text-center flex flex-col items-center justify-center">
+                <h1 class="text-3xl font-extrabold">A barn house of this design has a <br> striking appearance</h1>
+              <p class="py-4 text-xs font-bold">
                 The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.
               </p>
               <a class="btn btn-success border-none rounded-3xl font-bold text-lg bg-[#ABEF5F]">View details <i class="fa-sharp fa-solid fa-arrow-right bg-[#a8e068] text-black rounded-full items-center w-8 h-8 p-1.5 -rotate-45"></i></a>
+              </div>
+              
             </div>
           </div>
         </div>
-
-        <div>
-
-        </div>
     
    </header>
-   <main>
+   <main class="bg-slate-100">
+    <!-- Main starts here  -->
+    <!-- second section test  -->
+    <Section class=" relative max-w-screen-lg mx-auto  p-5 lg:p-0">
+
+            <div>
+                <!-- <img  class="img -ms-10 hidden lg:block" src="images/Vector.png" alt=""> -->
+            <img class="absolute -top-4 -left-6 mt-4 hidden lg:block" src="images/Vector.png" alt="">
+            </div>
+
+         <div class="grid grid-cols-1 lg:grid-cols-2 lg:left lg:space-x-6"> 
+            <div class="grid grid-cols-1 space-y-2 lg:gap-5">
+            <div class="left-div mt-10"> 
+                <a class="btn btn-default border-none rounded-3xl font-bold text-sm px-6 mt-6 bg-white lg:ms-0  ms-48 lg-mb-3"><i class="fa-sharp fa-solid fa-arrow-right text-center lg:left"></i> About Us</a>
+
+                <h3 class="text-center lg:text-left text-lg  lg:text-3xl font-extrabold mb-2 lg:mb-2 items-center">We design thoughtful,<br> liveable spaces</h3>
+              <p class="text-sm text-center lg:text-left mb-4">
+                The barn house captivates with its blend of rustic charm and <br>
+                modern sophistication, featuring weathered wood, sleek metal accents.
+              </p>
+              
+        </div>
+        <!-- <div class="grid grid-cols-1 lg:grid-cols-2 gap-3"> -->
+            <div class="flex space-x-2 max-w-[500] bg-white shadow-lg  rounded-2xl p-4 ">
+
+            <img class="p-2 rounded-xl" src="images/commercial.png" alt="">
+            <div class="">
+                <h4 class="text-2xl font-bold">Commercial</h4>
+            <p class="text-sm">The barn house captivates with its blend of rustic charm and modern.</p>
+            </div>
+        </div>
+    
+    <div class="flex space-x-2 max-w-[500] bg-white shadow-lg  rounded-2xl p-4 ">
+        <img class="p-2 rounded-xl" src="images/residential.png" alt="">
+        <div class="">
+            <h4 class="text-2xl font-bold">Residential</h4>
+        <p class="text-sm">The barn house captivates with its blend of rustic charm and modern.</p>
+        </div>
+    </div>
+        </div>
+    
+    <div>
+        <img class="mt-12" src="images/Rectangle.png" alt="">
+    </div>
+</div>  
+
+    </Section>
+    
     
    </main>
 
