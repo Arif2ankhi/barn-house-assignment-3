@@ -42,7 +42,7 @@
     <!-- header starts here  -->
    <header class="w-full mx-auto bg-orange-50">
     <nav class="w-11/12 mx-auto">
-        <div class="navbar">
+        <div class="navbar justify-between">
             <div class="navbar-start">
               <div class="flex space-x-2">
             <i class="fa-sharp fa-solid fa-arrow-right bg-[#ABEF5F] rounded-full items-center w-7 h-7 p-1.5 -rotate-45"></i>
@@ -74,7 +74,7 @@
             
               
 
-              <div class="dropdown justify-end">
+              <div class="dropdown ">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                     <i class="fa-solid fa-bars"></i>
                 </div>
@@ -160,7 +160,7 @@
 
 <!-- Our work process starts here  -->
 
-<section class="w-9/12 mx-auto p-5 lg:p-0  py-2 lg:py-4  mt-6 lg:mt-8 mb-40">
+<section class="w-9/12 mx-auto p-5 lg:p-0  py-2 lg:py-4  mt-6 lg:mt-8 mb-12">
   <!-- title -->
    <div class="text-center mb-8">
     <a class="btn btn-default border-none rounded-3xl font-bold text-sm px-6 mt-6 bg-white lg:ms-0  ms-0 lg-mb-3"><i class="fa-sharp fa-solid fa-arrow-right text-center lg:left"></i> How we works</a>
@@ -207,88 +207,95 @@
 <!-- challange section starts here  -->
 
 
-<section class=" challange w-11/12 mx-auto mt-24">
-  
-    <div>
+<section class=" challange w-full mx-auto mt-12  bg-orange-50">
+  <div class="text-center mb-8">
+  <a class="btn btn-default border-none rounded-3xl font-bold text-sm px-6 mt-6 bg-green-100 lg:ms-0  ms-0 lg-mb-3"><i class="fa-sharp fa-solid fa-arrow-right text-center lg:left"></i> Explore Our Latest works</a>
 
-      <h3 class="text-4xl font-bold mb-4">Explore Our Latest Portfolio</h3>
+      <h3 class="text-4xl font-extrabold mb-4"> Our Latest Portfolio</h3>
 
-      <p class="text-lg text-gray-600">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+      <p class="text-md text-gray-600">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
 
     </div>
 
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+    <div>
 
-      <div class="grid grid-cols-1 lg:col-span-3 bg-white p-6 rounded-lg shadow-lg">
+    </div>
 
-          <img src="images/img1.png" alt="Barn House" class=" rounded-lg mb-4 md:mb-0 md:mr-4">
+  <div class="grid lg:grid-cols-1  md:grid-cols-4 gap-4 mb-2.5">
 
-          <div>
+      <!-- <div class="grid grid-cols-2 lg:col-span-2 space-x-4 bg-white p-2 rounded-lg shadow-lg"> -->
+        <div class="grid lg:grid-cols-2 space-x-4  bg-white shadow-lg  rounded-2xl p-3 ml-6 ">
+        <!-- <div class="flex space-x-2  bg-white shadow-lg  rounded-2xl p-3 ml-6 "> -->
 
-              <h2 class="text-xl font-bold mb-2">Commercial</h2>
-
-              <p class="text-gray-600 mb-4">The barn house captivates with its blend of rustic charm and modern sophistication.</p>
-
-              <button class="bg-green-500 text-white px-4 py-2 rounded-lg flex items-center">
-
-                  View Details
-
-
-              </button>
-
+          <div class="" >
+            <img class="w-full h-full" src="images/img1.png" alt="Barn House" class=" rounded-lg mb-4 md:mb-0 md:mr-4">
           </div>
 
+          <!-- <img src="images/img1.png" alt="Barn House" class=" rounded-lg mb-4 md:mb-0 md:mr-4"> -->
+
+        
+
+          <div class="">
+              <h2 class="text-md font-extrabold mb-2">Commercial</h2>
+
+              <p class="text-gray-600 text-sm">The barn house captivates with its <br> blend of rustic charm and modern <br> sophistication.</p>
+
+              <button class="bg-white  text-black text-md font-extrabold py-2 rounded-full flex items-center">
+
+                View Details <i class="fa-sharp fa-solid fa-arrow-right bg-[#ABEF5F] rounded-full items-center w-7 h-7 p-1.5 -rotate-45 ml-2"></i>
+                 </button>
+            </div>
+      </div>
       </div>
 
+      <div>
+
+      </div>
       <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
 
           <div class="bg-white p-4 rounded-lg shadow-lg">
 
-              <img src="images/img2.png" alt="House 1" class="w-full rounded-lg mb-2">
-
-             
+              <img class="h-full w-full" src="images/img2.png" alt="House 1" class=" rounded-lg mb-2">
 
           </div>
 
           <div class="bg-white p-4 rounded-lg shadow-lg">
 
-              <img src="images/img3.png" alt="House 2" class="w-full rounded-lg mb-2">
-
-             
+              <img class="w-full" src="images/img3.png" alt="House 2" class=" rounded-lg mb-2">
 
           </div>
 
-          <div class="bg-white p-4 rounded-lg shadow-lg">
+          <div class= "grid lg:grid-cols-2 space-x-4 bg-white p-4 rounded-lg shadow-lg">
 
-              <img src="images/img4.png" alt="House 3" class="w-full rounded-lg mb-2">
+              <img class="w-full h-full" src="images/img4.png" alt="House 3" class=" rounded-lg mb-2">
 
-              <h3 class="text-lg font-bold mb-1">Commercial</h3>
-
-              <p class="text-gray-600 mb-2">The barn house captivates with its blend of rustic charm and modern sophistication.</p>
-
-              <button class="bg-green-500 text-white px-4 py-2 rounded-lg">View Details</button>
+              <div class="">
+                <h2 class="text-md font-extrabold mb-2">Commercial</h2>
+  
+                <p class="text-gray-600 text-sm">The barn house captivates with its blend of rustic charm and modern sophistication.</p>
+  
+                <button class="bg-white  text-black text-md font-extrabold py-2 rounded-full flex items-center">
+  
+                  View Details <i class="fa-sharp fa-solid fa-arrow-right bg-[#ABEF5F] rounded-full items-center w-7 h-7 p-1.5 -rotate-45 ml-2"></i>
+                   </button>
+              </div>
 
           </div>
 
           <div class="bg-white p-4 rounded-lg shadow-lg lg:hidden">
 
-            <img src="images/img2.png" alt="House 3" class="w-full rounded-lg mb-2">
-
-           
+            <img class="w-full h-full" src="images/img2.png" alt="House 3" class=" rounded-lg mb-2">
 
         </div>
 
         <div class="bg-white p-4 rounded-lg shadow-lg">
 
-          <img src="images/img5.png" alt="House 3" class="w-full rounded-lg mb-2">
+          <img class="w-full h-full" src="images/img5.png" alt="House 3" class=" rounded-lg mb-2">
 
-         
-
-      </div>
 
       </div>
 
-  
+    </div>
     
   </div>
 
